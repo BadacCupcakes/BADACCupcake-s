@@ -1,0 +1,323 @@
+body
+{
+   background-color: #800080;
+   background-image: url(images/NOSOTROS_bkgrnd.png);
+   background-repeat: repeat-y;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Shape1
+{
+   border-width: 0;
+}
+#TextArt1
+{
+   border-width: 0;
+}
+#WrappingText1
+{
+   background-color: transparent;
+   background-image: none;
+}
+.WrappingText1
+{
+   position: absolute;
+   border-width: 0px;
+   color: #000000;
+   font-family: Comic Sans MS;
+   font-weight: bold;
+   font-size:47.8px;
+   font-style: normal;
+   text-align: justify;
+   text-align-last: justify;
+}
+.WrappingText1 span
+{
+   text-align: justify;
+   text-align-last: justify;
+}
+.WrappingText1 span:after
+{
+   content: "";
+   display: inline-block;
+   width: 100%;
+}
+#Shape2
+{
+   border-width: 0;
+}
+#wb_TextArt2 a img
+{
+   position: absolute;
+   left: 0;
+}
+#wb_TextArt2 span
+{
+   position: absolute;
+   left: 0;
+}
+#wb_TextArt2 a .hover
+{
+   visibility: hidden;
+}
+#wb_TextArt2 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_TextArt2 a:hover span
+{
+   visibility: hidden;
+}
+#TextArt2
+{
+   border-width: 0;
+}
+#WrappingText2
+{
+   background-color: transparent;
+   background-image: none;
+}
+.WrappingText2
+{
+   position: absolute;
+   border-width: 0px;
+   color: #000000;
+   font-family: Comic Sans MS;
+   font-weight: bold;
+   font-size:47.8px;
+   font-style: normal;
+   text-align: justify;
+   text-align-last: justify;
+}
+.WrappingText2 span
+{
+   text-align: justify;
+   text-align-last: justify;
+}
+.WrappingText2 span:after
+{
+   content: "";
+   display: inline-block;
+   width: 100%;
+}
+#Shape3
+{
+   border-width: 0;
+}
+#TextArt3
+{
+   border-width: 0;
+}
+#Shape4
+{
+   border-width: 0;
+}
+#TextArt4
+{
+   border-width: 0;
+}
+#Marquee1
+{
+   background-color: #000000;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+}
+#wb_CssMenu2
+{
+   border: 0px #C0C0C0 solid;
+   background-color: transparent;
+}
+#wb_CssMenu2 ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#wb_CssMenu2 li
+{
+   float: left;
+   margin: 0;
+   padding: 0px 25px 0px 0px;
+   width: 110px;
+}
+#wb_CssMenu2 a
+{
+   display: block;
+   float: left;
+   color: #FFFFFF;
+   border: 1px #800080 solid;
+   background-color: #000000;
+   background: -moz-linear-gradient(bottom,#000000 0%,#FF1493 100%);
+   background: -webkit-linear-gradient(bottom,#000000 0%,#FF1493 100%);
+   background: -o-linear-gradient(bottom,#000000 0%,#FF1493 100%);
+   background: -ms-linear-gradient(bottom,#000000 0%,#FF1493 100%);
+   background: linear-gradient(bottom,#000000 0%,#FF1493 100%);
+   font-family: "Comic Sans MS";
+   font-weight: bold;
+   font-size: 17px;
+   font-style: normal;
+   text-decoration: none;
+   width: 98px;
+   height: 48px;
+   padding: 0px 5px 0px 5px;
+   vertical-align: middle;
+   line-height: 48px;
+   text-align: center;
+}
+#wb_CssMenu2 li:hover a, #wb_CssMenu2 a:hover
+{
+   color: #000000;
+   background-color: #800080;
+   background: -moz-linear-gradient(bottom,#800080 0%,#000000 100%);
+   background: -webkit-linear-gradient(bottom,#800080 0%,#000000 100%);
+   background: -o-linear-gradient(bottom,#800080 0%,#000000 100%);
+   background: -ms-linear-gradient(bottom,#800080 0%,#000000 100%);
+   background: linear-gradient(bottom,#800080 0%,#000000 100%);
+   border: 1px #800080 solid;
+}
+#wb_CssMenu2 li.firstmain
+{
+   padding-left: 0px;
+}
+#wb_CssMenu2 li.lastmain
+{
+   padding-right: 0px;
+}
+#wb_CssMenu2 li:hover, #wb_CssMenu2 li a:hover
+{
+   position: relative;
+}
+#wb_CssMenu2 a.withsubmenu
+{
+   padding: 0 5px 0 5px;
+   width: 98px;
+}
+#wb_CssMenu2 li:hover a.withsubmenu, #wb_CssMenu2 a.withsubmenu:hover
+{
+}
+#wb_CssMenu2 ul ul
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   visibility: hidden;
+   width: 110px;
+   height: auto;
+   border: none;
+   background-color: transparent;
+}
+#wb_CssMenu2 ul :hover ul
+{
+   left: 0px;
+   top: 50px;
+   padding-top: 0px;
+   visibility: visible;
+}
+#wb_CssMenu2 .firstmain:hover ul
+{
+   left: 0px;
+}
+#wb_CssMenu2 li li
+{
+   width: 110px;
+   padding: 0 0px 4px 0px;
+   border: 0px #C0C0C0 solid;
+   border-width: 0 0px;
+}
+#wb_CssMenu2 li li.firstitem
+{
+   border-top: 0px #C0C0C0 solid;
+}
+#wb_CssMenu2 li li.lastitem
+{
+   border-bottom: 0px #C0C0C0 solid;
+}
+#wb_CssMenu2 li li.lastitem
+{
+   padding-bottom: 0px;
+}
+#wb_CssMenu2 ul ul a, #wb_CssMenu2 ul :hover ul a
+{
+   float: none;
+   margin: 0;
+   width: 98px;
+   height: auto;
+   white-space: normal;
+   padding: 16px 5px 16px 5px;
+   background-color: #000000;
+   background-image: none;
+   border: 1px #000000 solid;
+   color: #FFFFFF;
+   font-family: "Comic Sans MS";
+   font-weight: bold;
+   font-size: 16px;
+   font-style: normal;
+   line-height: 16px;
+   text-align: center;
+   text-decoration: none;
+}
+#wb_CssMenu2 ul :hover ul .firstitem a
+{
+   margin-top: 0px;
+}
+#wb_CssMenu2 ul ul :hover a, #wb_CssMenu2 ul ul a:hover, #wb_CssMenu2 ul ul :hover ul :hover a, #wb_CssMenu2 ul ul :hover ul a:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #FFFFFF solid;
+   color: #000000;
+}
+#wb_CssMenu2 br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+#wb_CssMenu2.affix
+{
+   top: 0 !important;
+   position: fixed !important;
+}
+#Image1
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image2
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image3
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image4
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
